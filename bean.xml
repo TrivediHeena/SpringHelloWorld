@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : bean.xml
+    Created on : 03 March 2017, 13:42
+    Author     : fdsh
+    Description:
+        Purpose of the document follows.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    <bean id="hello" class="javaapplication1.Hello">
+        <property name="msg" value="Hello Spring!!!"/>
+    </bean>
+</beans>
